@@ -8,10 +8,11 @@ import urllib2
 
 # Change QUERY to your search term of choice. 
 # Examples: 'newsnight', 'from:bbcnewsnight', 'to:bbcnewsnight'
-QUERY = '#opendata'
+QUERY = '@LLMinfotrafik'
 RESULTS_PER_PAGE = '100'
-LANGUAGE = 'en'
-NUM_PAGES = 1000 
+# LANGUAGE = 'en'
+LANGUAGE = ''
+NUM_PAGES = 10
 
 for page in range(1, NUM_PAGES+1):
     base_url = 'http://search.twitter.com/search.json?q=%s&rpp=%s&lang=%s&page=%s' \
