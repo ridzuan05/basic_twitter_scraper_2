@@ -8,10 +8,10 @@ import urllib2
 
 # Change QUERY to your search term of choice. 
 # Examples: 'newsnight', 'from:bbcnewsnight', 'to:bbcnewsnight'
-QUERY = '@LLMinfotrafik'
+QUERY = 'LLMinfotrafik'
 RESULTS_PER_PAGE = '100'
 # LANGUAGE = 'en'
-LANGUAGE = ''
+LANGUAGE = 'en'
 NUM_PAGES = 10
 
 for page in range(1, NUM_PAGES+1):
